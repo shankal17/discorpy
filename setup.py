@@ -15,7 +15,7 @@ if sys.version_info[:2] <= (3, 7):
 else:
     dependencies = [
         "scikit-image",
-        "scipy<1.9.2",
+        "scipy",
         "h5py",
         "pillow",
         "matplotlib",
